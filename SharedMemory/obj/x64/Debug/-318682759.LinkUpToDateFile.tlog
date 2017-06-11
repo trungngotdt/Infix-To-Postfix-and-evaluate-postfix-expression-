@@ -1,0 +1,1 @@
+g++ -o "/root/projects/SharedMemory/bin/x64/Debug/SharedMemory.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/SharedMemory/obj/x64/Debug/a.o /root/projects/SharedMemory/obj/x64/Debug/b.o /root/projects/SharedMemory/obj/x64/Debug/main.o /root/projects/SharedMemory/obj/x64/Debug/MQ.o

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedMemory", "SharedMemory\SharedMemory.vcxproj", "{E4C7700A-64F4-4FD7-9450-A47E156724F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Debug|ARM.Build.0 = Debug|ARM
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Debug|x64.ActiveCfg = Debug|x64
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Debug|x64.Build.0 = Debug|x64
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Debug|x86.ActiveCfg = Debug|x86
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Debug|x86.Build.0 = Debug|x86
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Release|ARM.ActiveCfg = Release|ARM
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Release|ARM.Build.0 = Release|ARM
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Release|x64.ActiveCfg = Release|x64
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Release|x64.Build.0 = Release|x64
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Release|x86.ActiveCfg = Release|x86
+		{E4C7700A-64F4-4FD7-9450-A47E156724F8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ngotrung.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SharedMemory\\SharedMemory.vcxproj
+		SccProjectName1 = SharedMemory
+		SccLocalPath1 = SharedMemory
+	EndGlobalSection
+EndGlobal

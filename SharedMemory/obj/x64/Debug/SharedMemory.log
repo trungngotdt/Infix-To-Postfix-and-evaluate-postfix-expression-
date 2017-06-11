@@ -1,0 +1,70 @@
+﻿  Validating architecture
+  Validating sources
+  Copying sources remotely
+  Starting remote build
+  Compiling sources:
+  b.c
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Linux.Common.targets(248,5): warning : command line option '-fthreadsafe-statics' is valid for C++/ObjC++ but not for C
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Linux.Common.targets(248,5): warning : command line option '-frtti' is valid for C++/ObjC++ but not for C
+/usr/include/x86_64-linux-gnu/sys/ipc.h(24,3): warning : #warning "Files using this header must be compiled with _GNU_SOURCE or _XOPEN_SOURCE" [-Wcpp]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(48,11): warning : conversion to 'int' from 'size_t {aka long unsigned int}' may alter its value [-Wconversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(48,28): warning : conversion to 'int' from 'size_t {aka long unsigned int}' may alter its value [-Wconversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(48,46): warning : conversion to 'int' from 'size_t {aka long unsigned int}' may alter its value [-Wconversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(57,38): warning : conversion to 'size_t {aka long unsigned int}' from 'int' may change the sign of the result [-Wsign-conversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(58,22): warning : conversion to 'size_t {aka long unsigned int}' from 'int' may change the sign of the result [-Wsign-conversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(107,19): warning : conversion to 'char' from 'float' may alter its value [-Wfloat-conversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(128,19): warning : conversion to 'char' from 'float' may alter its value [-Wfloat-conversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(150,17): warning : conversion to 'char' from 'float' may alter its value [-Wfloat-conversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(185,15): warning : conversion to 'float' from 'int' may alter its value [-Wconversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(193,22): warning : conversion to 'float' from 'int' may alter its value [-Wconversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(205,21): warning : conversion to 'float' from 'int' may alter its value [-Wconversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(254): warning : ignoring #pragma region  [-Wunknown-pragmas]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(296,6): warning : conversion to 'int' from 'float' may alter its value [-Wfloat-conversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(298,8): warning : conversion to 'char' from 'int' may alter its value [-Wconversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(311,8): warning : conversion to 'char' from 'float' may alter its value [-Wfloat-conversion]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(314): warning : ignoring #pragma endregion  [-Wunknown-pragmas]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(336,2): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(341,13): warning : implicit declaration of function 'msgget' [-Wimplicit-function-declaration]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(356,12): warning : implicit declaration of function 'msgrcv' [-Wimplicit-function-declaration]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(379,8): warning : implicit declaration of function 'msgsnd' [-Wimplicit-function-declaration]
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(388,3): warning : implicit declaration of function 'gets' [-Wimplicit-function-declaration]
+  Linking objects
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\b.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(47): error : multiple definition of `_str_rpl'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(36): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\b.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(67): error : multiple definition of `chuyen'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(56): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\b.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(267): error : multiple definition of `init'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(256): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\b.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(288): error : multiple definition of `push'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(277): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\b.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(302): error : multiple definition of `pop'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(291): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\b.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(310): error : multiple definition of `top'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(299): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\b.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(256): error : multiple definition of `priority'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(245): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\b.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(272): error : multiple definition of `empty'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(261): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\b.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(280): error : multiple definition of `full'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(269): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\b.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(294): error : multiple definition of `peek'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(283): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\b.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\b.c(413): error : multiple definition of `main'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(329): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\main.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\main.cpp(12): error : multiple definition of `main'
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o:\root\projects\SharedMemory\a.c(329): error : first defined here
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\obj\x64\Debug\a.o : error : 
+C:\Users\Tran\Documents\Visual Studio 2017\Projects\Linux_c++\SharedMemory\a.c:317 : error : the `gets' function is dangerous and should not be used.
+collect2 : error : ld returned 1 exit status
